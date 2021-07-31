@@ -9,10 +9,10 @@
   box-sizing: border-box;
 }
 
-/* elementos basicos */
+/* elementos base */
 body {
   background: var(--preta);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 
@@ -44,7 +44,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url('capa-house.jpg');
+    url('../img/ladybug.jpg');
 
   height: 400px;
   background-size: cover;
@@ -67,7 +67,7 @@ header nav a:hover {
 }
 
 .botao {
-  background-color: rgba(0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: white;
 
@@ -94,4 +94,18 @@ header nav a:hover {
 
 .filme-principal .container {
   width: 70%;
+}
+
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.item img {
+  height: 400px;
+}
+
+.carrosel-filmes {
+  margin-top: 5px;
 }
